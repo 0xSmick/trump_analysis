@@ -3,10 +3,10 @@ import csv
 import credentials as creds
 
 #Twitter API credentials
-consumer_key = '2Z4wEHdx0FDmq9y5X0rHiU72E'
-consumer_secret = 'e9Dmg5p5NpDrH2U6SzUSa1vdr4yI9lZqSO9UF3zDFzwt1T9Jj9'
-access_key = '549870381-O0BYSb5GJHf2HEabrWkBVw7vN1NHC4z7l3SGeKhh'
-access_secret = 'B6luotvY1Ptnm13YH1KWHNOfcBovjzFwE7dNrTtGRKeK3'
+consumer_key = consumer_key
+consumer_secret = consumer_secret
+access_key = access_key
+access_secret = access_secret
 
 #authorize twitter, initialize tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
